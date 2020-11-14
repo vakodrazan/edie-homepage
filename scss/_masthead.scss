@@ -1,0 +1,118 @@
+@import "variables";
+
+.masthead {
+    --font-size: 24px;
+    --padding-inline: 40px;
+    padding-top: 67px;
+    padding-bottom: 102px;
+
+    &__wrapper {
+        @include flex-column-reverse;
+        padding: 0 var(--padding-inline);
+
+        @media (min-width: $desktop_breakpoint) {
+            --padding-inline: 277px;
+        }
+    }
+
+    &__heading {
+        font-size: var(--font-size);
+        margin: 0;
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+
+    &__content {
+        --font-size: 12px;
+        font-size: var(--font-size);
+        color: #2D9CDB;
+        font-weight: 500;
+    }
+
+    &__image { 
+        padding-left: 10px;
+        
+        img {
+            border-radius: 18px;
+            width: 95%;
+        }
+        @media (min-width: $desktop_breakpoint) {
+            padding-left: 52px;
+        }
+    }
+
+    &__hero {
+        padding: 0 var(--padding-inline);
+
+        @media (min-width: $desktop_breakpoint) {
+            --padding-inline: 277px;
+        }
+
+        &__heading {
+            --font-size: 24px;
+            max-width: 150px;
+            font-size: var(--font-size);
+            font-weight: 500;
+            margin: 0;
+            padding-top: 22px;
+            padding-bottom: 33px;
+
+            @media (min-width: $desktop_breakpoint) {
+                --font-size: 48px;
+                max-width: 300px;
+            }
+        }
+
+        &__information {
+            --font-size: 12px;
+            font-size: var(--font-size);
+            color: #4F4F4F;
+            padding-bottom: 31px;
+            max-width: 225px;
+
+            @media (min-width: $desktop_breakpoint) {
+                --font-size: 18px;
+                max-width: 300px;
+            }
+        }
+
+        &__recommendation {
+
+            &__question {
+                --font-size: 18px;
+                font-size: var(--font-size);
+            }
+
+            &__join {
+                --font-size: 14px;
+                padding-top: 9px;
+                padding-bottom: 9px;
+                padding-left: 10px;
+                border: 0;
+                background-color: #F2F2F2;
+                border-radius: 12px;
+
+                input {
+                    font-size: var(--font-size);
+                    width: 65%;
+                    padding-left: 11px;
+                    padding: 11px 0;
+                    border: 0;
+                    background-color: #F2F2F2;
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+                button {
+                    font-size: var(--font-size);
+                    padding: 11px 27px;
+                    border-radius: 12px;
+                    background-color: #2D9CDB;
+                    color: white;
+                    border: none;
+                }
+            }
+        }
+    }
+}
