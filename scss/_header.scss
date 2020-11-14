@@ -1,8 +1,22 @@
 @import "variables";
 
 .header {
-    padding:  0 10px;
+    --font-size: 24px;
+    padding-left: 10px;
+    padding-top: 13px;
     @include flex-row-layout;
+
+    @media (min-width: $desktop_breakpoint) {
+        padding-left: 52px;
+        padding-right: 56px;
+        padding-top: 51px;
+    }
+
+    &__heading {
+        font-size: var(--font-size);
+        margin: 0;
+    }
+
     &__navigation {
         background-color: #f8f8f8;
         position: absolute;
@@ -13,6 +27,42 @@
         box-shadow: 0 0 50px rgba(0,0,0,.5);
         transform: translateX(-200%);
         transition: transform 0.2s;
+        width: 70%;
+        padding: 2rem;
+        
+        @media (min-width: $desktop_breakpoint) {
+            position: initial;
+            padding: 0;
+            background-color: transparent;
+            box-shadow: none;
+            transform: none;
+            transition: none;
+            max-width: 50%;
+
+            &__list {
+                @include flex-row-layout;
+            }
+        }
+        &__list__item {
+            font-size: var(--font-size);
+            font-weight: 500;
+            color: #333333;
+            padding-bottom: 1rem;
+        }
+    }
+}
+
+// *********** Menu checkbox ***********\\
+
+.menu {
+    background-image: url("../assets/menu.svg");
+    background-repeat: no-repeat;
+    background-size: var(--font-size);
+    color: transparent;
+    margin-right: -35px;
+
+    @media (min-width: $desktop_breakpoint) {
+        display: none;
     }
 }
 
