@@ -1,1 +1,1 @@
-{"version":3,"sources":["scss/index.scss"],"names":[],"mappings":"AAAA","file":"scss.6b84482b.css","sourceRoot":"..","sourcesContent":[""]}
+{"version":3,"sources":["scss\\_default.scss"],"names":[],"mappings":"AAAA;EACI;;;AAGJ;EACI","file":"scss.6b84482b.css","sourceRoot":"..","sourcesContent":["body {\r\n    margin: 0; \r\n}\r\n\r\nimg {\r\n    max-width: 100%;\r\n}"]}

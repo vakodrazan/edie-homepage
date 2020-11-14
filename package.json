@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vakodrazan/edie-homepage/issues"
   },
-  "homepage": "https://github.com/vakodrazan/edie-homepage#readme"
+  "homepage": "https://github.com/vakodrazan/edie-homepage#readme",
+  "devDependencies": {
+    "sass": "^1.29.0"
+  }
 }
