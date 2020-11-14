@@ -1,0 +1,19 @@
+{
+  "name": "edie-homepage",
+  "version": "1.0.0",
+  "description": "Challenge: Create a static page with HTML and CSS following the designs. Don’t look at the existing solution. Fulfill user stories below:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vakodrazan/edie-homepage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vakodrazan/edie-homepage/issues"
+  },
+  "homepage": "https://github.com/vakodrazan/edie-homepage#readme"
+}
