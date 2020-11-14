@@ -6,4 +6,15 @@ img {
   max-width: 100%;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
 /*# sourceMappingURL=/scss.6b84482b.css.map */

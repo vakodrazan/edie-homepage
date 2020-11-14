@@ -1,7 +1,17 @@
+@import "variables";
+
 body {
     margin: 0; 
 }
 
 img {
     max-width: 100%;
+}
+
+ul {
+    @include reset-list;
+}
+
+a {
+    @include reset-link;
 }
