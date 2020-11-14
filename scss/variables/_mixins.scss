@@ -8,3 +8,10 @@
     text-decoration: none;
     color: currentColor;
 }
+
+@mixin flex-row-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
