@@ -15,3 +15,17 @@ ul {
 a {
     @include reset-link;
 }
+
+a:hover {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+address {
+    font-style: normal;
+}
+
+figure,
+p {
+    margin: 0;
+}
