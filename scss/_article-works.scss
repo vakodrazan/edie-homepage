@@ -64,9 +64,13 @@
             font-weight: 500;
 
             svg {
-                max-width: 25px;
+                max-width: 20px;
                 vertical-align: middle;
             }
+        }
+
+        @media (min-width: $desktop_breakpoint) {
+            text-align: right;
         }
     }
 

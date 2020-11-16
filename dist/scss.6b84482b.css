@@ -465,8 +465,13 @@ body > [type=checkbox]:checked ~ label {
   font-weight: 500;
 }
 .works__footer__link svg {
-  max-width: 25px;
+  max-width: 20px;
   vertical-align: middle;
+}
+@media (min-width: 1140px) {
+  .works__footer {
+    text-align: right;
+  }
 }
 @media (min-width: 1140px) {
   .works .content {
