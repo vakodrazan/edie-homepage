@@ -110,6 +110,8 @@ fieldset {
 .header__heading {
   font-size: var(--font-size);
   margin: 0;
+  font-family: "Heebo", Arial, Helvetica, sans-serif;
+  font-weight: 800;
 }
 .header__navigation {
   background-color: #f8f8f8;
