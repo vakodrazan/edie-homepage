@@ -1,1 +1,25 @@
 @import "variables";
+
+.clients {
+
+    &__header {
+        padding-bottom: 36px;
+
+        &__wrapper {
+            @include flex-column-reverse;
+
+            &__heading {
+                margin: 0;
+                font-weight: 500;
+                font-size: 36px;
+                padding-top: 7px;
+            }
+
+            &__desc {
+                font-weight: 500;
+                font-size: 18px;
+                color: #EB5757;
+            }
+        }
+    }
+}

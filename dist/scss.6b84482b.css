@@ -490,4 +490,23 @@ body > [type=checkbox]:checked ~ label {
   }
 }
 
+.clients__header {
+  padding-bottom: 36px;
+}
+.clients__header__wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.clients__header__wrapper__heading {
+  margin: 0;
+  font-weight: 500;
+  font-size: 36px;
+  padding-top: 7px;
+}
+.clients__header__wrapper__desc {
+  font-weight: 500;
+  font-size: 18px;
+  color: #EB5757;
+}
+
 /*# sourceMappingURL=/scss.6b84482b.css.map */
