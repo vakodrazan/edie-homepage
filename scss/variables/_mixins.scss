@@ -26,3 +26,8 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@mixin hide-text {
+    text-indent: -999px;
+    overflow: hidden;
+}

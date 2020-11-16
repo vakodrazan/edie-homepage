@@ -22,11 +22,52 @@
     }
 
     &__contact {
+        padding-bottom: 65px;
+
         &__owner {
             font-family: "Poppins", Arial, Helvetica, sans-serif;
             font-weight: 800;
             font-size: 36px;
             color: #F2F2F2;
+            padding-bottom: 8px;
         }
+
+        &__list {
+            @include flex-row-layout;
+            max-width: 100px;
+
+            &__item {
+                @include hide-text;
+
+                &__link {
+                    display: block;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    width: 100px;
+                    height: 25px;
+                }
+
+                &--instagram {
+                    background-image: url("../assets/instagram.svg");
+                }
+                &--linkedin {
+                    background-image: url("../assets/linkedin.svg");
+                }
+                &--twitter {
+                    background-image: url("../assets/twitter.svg");
+                }
+            }
+        }
+    }
+
+
+    &__devchallenge {
+        font-family: "Montserrat",Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        color: #A9A9A9;
+        padding-top: 130px;
+        padding-bottom: 45px;
+        text-align: center;
     }
 }
