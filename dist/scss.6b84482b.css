@@ -42,6 +42,7 @@
 }
 body {
   margin: 0;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 24px;
   color: #333333;
 }
@@ -216,6 +217,7 @@ body > [type=checkbox]:checked ~ label {
   margin: 0;
   padding-bottom: 15px;
   padding-top: 10px;
+  font-weight: 500;
 }
 .masthead__content {
   --font-size: 12px;
@@ -245,7 +247,7 @@ body > [type=checkbox]:checked ~ label {
 }
 .masthead__hero__heading {
   --font-size: 24px;
-  max-width: 150px;
+  max-width: 227px;
   font-size: var(--font-size);
   font-weight: 500;
   margin: 0;
@@ -255,7 +257,7 @@ body > [type=checkbox]:checked ~ label {
 @media (min-width: 650px) {
   .masthead__hero__heading {
     --font-size: 48px;
-    max-width: 300px;
+    max-width: 366px;
   }
 }
 .masthead__hero__information {
@@ -263,12 +265,13 @@ body > [type=checkbox]:checked ~ label {
   font-size: var(--font-size);
   color: #4F4F4F;
   padding-bottom: 31px;
-  max-width: 225px;
+  max-width: 275px;
+  font-weight: 400;
 }
 @media (min-width: 650px) {
   .masthead__hero__information {
     --font-size: 18px;
-    max-width: 300px;
+    max-width: 366px;
   }
 }
 .masthead__hero__recommendation__question {

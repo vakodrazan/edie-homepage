@@ -20,6 +20,7 @@
         margin: 0;
         padding-bottom: 15px;
         padding-top: 10px;
+        font-weight: 500;
     }
 
     &__content {
@@ -50,7 +51,7 @@
 
         &__heading {
             --font-size: 24px;
-            max-width: 150px;
+            max-width: 227px;
             font-size: var(--font-size);
             font-weight: 500;
             margin: 0;
@@ -59,7 +60,7 @@
 
             @media (min-width: $desktop_breakpoint) {
                 --font-size: 48px;
-                max-width: 300px;
+                max-width: 366px;
             }
         }
 
@@ -68,11 +69,12 @@
             font-size: var(--font-size);
             color: #4F4F4F;
             padding-bottom: 31px;
-            max-width: 225px;
+            max-width: 275px;
+            font-weight: 400;
 
             @media (min-width: $desktop_breakpoint) {
                 --font-size: 18px;
-                max-width: 300px;
+                max-width: 366px;
             }
         }
 
