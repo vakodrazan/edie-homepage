@@ -1,0 +1,66 @@
+$path_to_font: "../fonts/";
+
+$font-faces: 
+  (
+    name: "Heebo Extra-Bold",
+    system-name: "Heebo Extra-Bold",
+    weight: 800,
+    style: normal,
+    filename: "heebo-800"
+  ),
+  (
+    name: "Montserrat SemiBold",
+    system-name: "Montserrat-SemiBold",
+    weight: 600,
+    style: normal,
+    filename: "montserrat-600"
+  ),
+  (
+    name: "Poppins Light",
+    system-name: "Poppins-Light",
+    weight: 300,
+    style: normal,
+    filename: "poppins-300"
+  ),
+  (
+    name: "Poppins Regular",
+    system-name: "Poppins-Regular",
+    weight: 400,
+    style: normal,
+    filename: "poppins-400"
+  ),
+  (
+    name: "Poppins Medium",
+    system-name: "Poppins-Medium",
+    weight: 500,
+    style: normal,
+    filename: "poppins-500"
+  ),
+  (
+    name: "Poppins SemiBold",
+    system-name: "Poppins-SemiBold",
+    weight: 600,
+    style: normal,
+    filename: "poppins-600"
+  ),
+  (
+    name: "Poppins Bold",
+    system-name: "Poppins-Bold",
+    weight: 700,
+    style: normal,
+    filename: "poppins-700"
+  )
+;
+
+@each $face in $font-faces {
+  @font-face {
+    font-family: map-get($face, name);
+    font-weight: map-get($face, weight);
+    font-style: map-get($face, style);
+      src: 
+        local(map-get($face, name)),
+        local(map-get($face, system-name)),
+        url('#{$path_to_font}#{map-get($face, filename)}.woff2') format(woff2),
+        url('#{$path_to_font}#{map-get($face, filename)}.woff') format(woff),
+  }
+}
