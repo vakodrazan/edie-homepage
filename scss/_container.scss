@@ -1,7 +1,7 @@
 @import "variables";
 
 .container {
-    padding: 0 40px;
+    padding: 0 19px;
 
     @media (min-width: $desktop_breakpoint) {
         max-width: $desktop_breakpoint;
