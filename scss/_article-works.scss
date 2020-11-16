@@ -12,11 +12,13 @@
         &__heading {
             font-weight: 500;
             font-size: var(--font-size);
+            margin: 0;
         }
 
         @media (min-width: $desktop_breakpoint) {
             --font-size: 36px;
             max-width: 446px;
+            padding: 0;
         }
     }
 
@@ -30,6 +32,10 @@
             font-weight: 500;
             font-size: var(--font-size);
             margin: 0;
+
+            @media (min-width: $desktop_breakpoint) {
+                --font-size: 24px;
+            }
         }
 
         &__title {
@@ -37,6 +43,10 @@
             font-size: var(--font-size);
             font-weight: 300;
             color: #828282;
+
+            @media (min-width: $desktop_breakpoint) {
+                --font-size: 14px;
+            }
         }
 
         &__image {
@@ -56,6 +66,22 @@
             svg {
                 max-width: 25px;
                 vertical-align: middle;
+            }
+        }
+    }
+
+    @media (min-width: $desktop_breakpoint) {
+        .content {
+            @include flex-row-layout;
+            flex-wrap: wrap;
+        }
+
+        &__item {
+            flex-basis: 50%;
+            padding: 0;
+
+            &:nth-of-type(odd) {
+                padding-top: 180px;
             }
         }
     }
