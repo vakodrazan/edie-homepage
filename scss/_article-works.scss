@@ -1,1 +1,48 @@
 @import "variables";
+
+.works {
+    padding-top: 80px;
+    padding-bottom: 100px;
+
+    &__header {
+        --font-size: 24px;
+        padding-bottom: 48px;
+        padding-left: 20px;
+
+        &__heading {
+            font-weight: 500;
+            font-size: var(--font-size);
+        }
+
+        @media (min-width: $desktop_breakpoint) {
+            --font-size: 36px;
+            max-width: 446px;
+        }
+    }
+
+
+    &__item {
+        @include flex-column-reverse;
+        padding-bottom: 30px;
+
+        &__heading {
+            --font-size: 18px;
+            font-weight: 500;
+            font-size: var(--font-size);
+            margin: 0;
+        }
+
+        &__title {
+            --font-size: 12px;
+            font-size: var(--font-size);
+            font-weight: 300;
+            color: #828282;
+        }
+
+        &__image {
+            img {
+                border-radius: 25px;
+            }
+        }
+    }
+}
