@@ -82,7 +82,7 @@ fieldset {
 }
 
 .container {
-  padding: 0 19px;
+  padding: 0 14px;
 }
 @media (min-width: 1140px) {
   .container {
@@ -535,6 +535,40 @@ body > [type=checkbox]:checked ~ label {
 .clients__profile__image--person-3 {
   grid-row: 1/3;
   align-self: center;
+}
+.clients__section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.clients__section__description {
+  font-weight: 500;
+  font-size: 20px;
+  padding-bottom: 16px;
+}
+.clients__section__address {
+  max-width: 310px;
+}
+.clients__section__address__link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.clients__section__address__link img {
+  max-width: 87px;
+  border-radius: 12px;
+}
+.clients__section__address__link__info {
+  padding-left: 12px;
+}
+.clients__section__address__link__info__name {
+  font-weight: 500;
+  padding-bottom: 12px;
+}
+.clients__section__address__link__info__job {
+  font-weight: 500;
+  font-size: 18px;
+  color: #828282;
 }
 
 /*# sourceMappingURL=/scss.6b84482b.css.map */

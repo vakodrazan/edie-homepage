@@ -58,4 +58,45 @@
 
         }
     }
+
+    &__section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        &__description {
+            font-weight: 500;
+            font-size: 20px;
+            // max-width: 351px;
+            padding-bottom: 16px;
+        }
+
+        &__address {
+            max-width: 310px;
+
+            &__link {
+                @include flex-row-layout;
+    
+                img {
+                    max-width: 87px;
+                    border-radius: 12px;
+                }
+    
+                &__info {
+                    padding-left: 12px;
+    
+                    &__name {
+                        font-weight: 500;
+                        padding-bottom: 12px;
+                    }
+    
+                    &__job {
+                        font-weight: 500;
+                        font-size: 18px;
+                        color: #828282;
+                    }
+                }
+            }
+        }
+
+    }
 }
