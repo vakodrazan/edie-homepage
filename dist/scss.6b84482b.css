@@ -276,11 +276,13 @@ body > [type=checkbox]:checked ~ label {
     max-width: 366px;
   }
 }
-.masthead__hero__recommendation__question {
+
+.hero__recommendation__question {
   --font-size: 18px;
   font-size: var(--font-size);
+  color: #828282;
 }
-.masthead__hero__recommendation__join {
+.hero__recommendation__join {
   --font-size: 14px;
   padding-top: 9px;
   padding-bottom: 9px;
@@ -289,18 +291,18 @@ body > [type=checkbox]:checked ~ label {
   background-color: #F2F2F2;
   border-radius: 12px;
 }
-.masthead__hero__recommendation__join input {
+.hero__recommendation__join input {
   font-size: var(--font-size);
-  width: 65%;
+  width: 60%;
   padding-left: 11px;
   padding: 11px 0;
   border: 0;
   background-color: #F2F2F2;
 }
-.masthead__hero__recommendation__join input:focus {
+.hero__recommendation__join input:focus {
   outline: none;
 }
-.masthead__hero__recommendation__join button {
+.hero__recommendation__join button {
   font-size: var(--font-size);
   padding: 11px 27px;
   border-radius: 12px;
@@ -569,6 +571,28 @@ body > [type=checkbox]:checked ~ label {
   font-weight: 500;
   font-size: 18px;
   color: #828282;
+}
+
+.footer {
+  background-color: #100E1D;
+  color: #fff;
+}
+.footer .container {
+  padding: 0 41px;
+}
+.footer__pagination {
+  padding-top: 36px;
+  padding-bottom: 64px;
+}
+.footer__pagination__list a {
+  font-weight: 400;
+  font-size: 18px;
+}
+.footer__contact__owner {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  color: #F2F2F2;
 }
 
 /*# sourceMappingURL=/scss.6b84482b.css.map */

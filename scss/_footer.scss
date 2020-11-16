@@ -1,0 +1,32 @@
+@import "variables";
+
+
+.footer {
+    background-color: #100E1D;
+    color: #fff;
+
+    .container {
+        padding: 0 41px;
+    }
+    &__pagination {
+        padding-top: 36px;
+        padding-bottom: 64px;
+
+
+        &__list {
+            a {
+                font-weight: 400;
+                font-size: 18px;
+            }
+        }
+    }
+
+    &__contact {
+        &__owner {
+            font-family: "Poppins", Arial, Helvetica, sans-serif;
+            font-weight: 800;
+            font-size: 36px;
+            color: #F2F2F2;
+        }
+    }
+}
