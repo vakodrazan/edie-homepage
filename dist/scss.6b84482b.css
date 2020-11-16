@@ -445,5 +445,16 @@ body > [type=checkbox]:checked ~ label {
 .works__item__image img {
   border-radius: 25px;
 }
+.works__footer {
+  color: #2D9CDB;
+}
+.works__footer__link {
+  font-size: 18px;
+  font-weight: 500;
+}
+.works__footer__link svg {
+  max-width: 25px;
+  vertical-align: middle;
+}
 
 /*# sourceMappingURL=/scss.6b84482b.css.map */

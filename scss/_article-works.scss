@@ -45,4 +45,18 @@
             }
         }
     }
+
+    &__footer {
+        color: #2D9CDB;
+
+        &__link {
+            font-size: 18px;
+            font-weight: 500;
+
+            svg {
+                max-width: 25px;
+                vertical-align: middle;
+            }
+        }
+    }
 }
