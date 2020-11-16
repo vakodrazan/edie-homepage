@@ -61,7 +61,7 @@
     background-repeat: no-repeat;
     background-size: var(--font-size);
     color: transparent;
-    margin-right: -35px;
+    margin-right: -100px;
 
     @media (min-width: $desktop_breakpoint) {
         display: none;
@@ -78,7 +78,6 @@ body > [type="checkbox"]:checked ~ header .header__navigation {
 
 body > label {
     position: absolute;
-    z-index: -1;
     top: 0;
     right: 0;
     bottom: 0;
