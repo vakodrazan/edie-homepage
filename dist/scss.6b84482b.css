@@ -245,6 +245,7 @@ body > [type=checkbox]:checked ~ label {
 @media (min-width: 1140px) {
   .masthead__hero {
     --padding-inline: 277px;
+    max-width: 366px;
   }
 }
 .masthead__hero__heading {
@@ -259,7 +260,7 @@ body > [type=checkbox]:checked ~ label {
 @media (min-width: 1140px) {
   .masthead__hero__heading {
     --font-size: 48px;
-    max-width: 366px;
+    max-width: unset;
   }
 }
 .masthead__hero__information {
@@ -273,7 +274,7 @@ body > [type=checkbox]:checked ~ label {
 @media (min-width: 1140px) {
   .masthead__hero__information {
     --font-size: 18px;
-    max-width: 366px;
+    max-width: unset;
   }
 }
 
