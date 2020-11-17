@@ -592,17 +592,34 @@ body > [type=checkbox]:checked ~ label {
 .footer {
   background-color: #100E1D;
   color: #fff;
+  padding-top: 36px;
+  padding-bottom: 45px;
 }
 .footer .container {
   padding: 0 41px;
 }
+@media (min-width: 1140px) {
+  .footer .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 0;
+  }
+}
 .footer__pagination {
-  padding-top: 36px;
   padding-bottom: 64px;
 }
 .footer__pagination__list a {
   font-weight: 400;
   font-size: 18px;
+}
+@media (min-width: 1140px) {
+  .footer__pagination {
+    padding: 0;
+  }
 }
 .footer__contact {
   padding-bottom: 65px;
@@ -647,8 +664,19 @@ body > [type=checkbox]:checked ~ label {
   font-size: 14px;
   color: #A9A9A9;
   padding-top: 130px;
-  padding-bottom: 45px;
   text-align: center;
+}
+@media (min-width: 1140px) {
+  .footer__devchallenge {
+    flex-basis: 100%;
+    padding-top: 113px;
+  }
+}
+@media (min-width: 1140px) {
+  .footer {
+    padding-top: 46px;
+    padding-bottom: 20px;
+  }
 }
 
 .hero__recommendation__question {
