@@ -676,10 +676,18 @@ body > [type=checkbox]:checked ~ label {
   }
 }
 
+.hero__recommendation {
+  max-width: 291px;
+}
 .hero__recommendation__question {
-  --font-size: 18px;
+  --font-size: 10px;
   font-size: var(--font-size);
   color: #828282;
+}
+@media (min-width: 1140px) {
+  .hero__recommendation__question {
+    --font-size: 14px;
+  }
 }
 .hero__recommendation__join {
   --font-size: 14px;
