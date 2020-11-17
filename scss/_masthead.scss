@@ -44,6 +44,7 @@
 
     &__hero {
         padding: 0 var(--padding-inline);
+        max-width: 277px;
 
         @media (min-width: $desktop_breakpoint) {
             --padding-inline: 277px;
@@ -52,7 +53,6 @@
 
         &__heading {
             --font-size: 24px;
-            max-width: 227px;
             font-size: var(--font-size);
             font-weight: 500;
             margin: 0;
@@ -61,7 +61,6 @@
 
             @media (min-width: $desktop_breakpoint) {
                 --font-size: 48px;
-                max-width: unset;
             }
         }
 
@@ -70,12 +69,10 @@
             font-size: var(--font-size);
             color: #4F4F4F;
             padding-bottom: 31px;
-            max-width: 275px;
             font-weight: 400;
 
             @media (min-width: $desktop_breakpoint) {
                 --font-size: 18px;
-                max-width: unset;
             }
         }
 

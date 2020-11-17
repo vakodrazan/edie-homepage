@@ -253,6 +253,7 @@ body > [type=checkbox]:checked ~ label {
 }
 .masthead__hero {
   padding: 0 var(--padding-inline);
+  max-width: 277px;
 }
 @media (min-width: 1140px) {
   .masthead__hero {
@@ -262,7 +263,6 @@ body > [type=checkbox]:checked ~ label {
 }
 .masthead__hero__heading {
   --font-size: 24px;
-  max-width: 227px;
   font-size: var(--font-size);
   font-weight: 500;
   margin: 0;
@@ -272,7 +272,6 @@ body > [type=checkbox]:checked ~ label {
 @media (min-width: 1140px) {
   .masthead__hero__heading {
     --font-size: 48px;
-    max-width: unset;
   }
 }
 .masthead__hero__information {
@@ -280,13 +279,11 @@ body > [type=checkbox]:checked ~ label {
   font-size: var(--font-size);
   color: #4F4F4F;
   padding-bottom: 31px;
-  max-width: 275px;
   font-weight: 400;
 }
 @media (min-width: 1140px) {
   .masthead__hero__information {
     --font-size: 18px;
-    max-width: unset;
   }
 }
 
