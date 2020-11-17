@@ -1,7 +1,6 @@
 @import "variables";
 
 .header {
-    --font-size: 24px;
     padding-left: 10px;
     padding-top: 13px;
     @include flex-row-layout;
@@ -13,10 +12,15 @@
     }
 
     &__heading {
+        --font-size: 24px;
         font-size: var(--font-size);
         margin: 0;
         font-family: "Heebo", Arial, Helvetica, sans-serif;
         font-weight: 800;
+    
+        @media (min-width: $desktop_breakpoint) {
+            --font-size: 36px;
+        }
     }
 
     &__navigation {
@@ -46,10 +50,15 @@
             }
         }
         &__list__item {
+            --font-size: 18px;
             font-size: var(--font-size);
             font-weight: 500;
             color: #333333;
             padding-bottom: 1rem;
+
+            @media (min-width: $desktop_breakpoint) {
+                --font-size: 24px;
+            }
         }
     }
 }
