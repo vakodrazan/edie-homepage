@@ -87,6 +87,7 @@ body > [type="checkbox"]:checked ~ header .header__navigation {
 
 body > label {
     position: absolute;
+    z-index: -1;
     top: 0;
     right: 0;
     bottom: 0;
@@ -97,13 +98,13 @@ body > label {
     background-color: rgba(0,0,0,.25);
   
     @media (min-width: $desktop_breakpoint) {
-      background-color: initial;
+      display: none;
     }
 }
 
 body > [type="checkbox"]:checked ~ main {
     z-index: 1;
-  } 
+} 
   
   body > [type="checkbox"]:checked ~ label {
     z-index: 2;
