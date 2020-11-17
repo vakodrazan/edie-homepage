@@ -534,6 +534,7 @@ body > [type=checkbox]:checked ~ label {
 .clients__section {
   padding-top: 100px;
   padding-bottom: 100px;
+  max-width: 351px;
 }
 .clients__section__description {
   --font-size: 24px;
