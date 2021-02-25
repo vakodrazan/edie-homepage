@@ -82,6 +82,13 @@ fieldset {
   padding: 0;
 }
 
+button {
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+
 .container {
   padding: 0 14px;
 }
