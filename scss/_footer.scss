@@ -73,21 +73,6 @@
         }
     }
 
-
-    &__devchallenge {
-        font-family: "Montserrat",Arial, Helvetica, sans-serif;
-        font-weight: 600;
-        font-size: 14px;
-        color: #A9A9A9;
-        padding-top: 130px;
-        text-align: center;
-
-        @media (min-width: $desktop_breakpoint) {
-            flex-basis: 100%;
-            padding-top: 113px;
-        }
-    }
-
     @media (min-width: $desktop_breakpoint) {
         padding-top: 46px;
         padding-bottom: 20px;

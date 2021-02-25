@@ -663,20 +663,6 @@ body > [type=checkbox]:checked ~ label {
 .footer__contact__list__item--twitter {
   background-image: url("/twitter.9c616447.svg");
 }
-.footer__devchallenge {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  color: #A9A9A9;
-  padding-top: 130px;
-  text-align: center;
-}
-@media (min-width: 1140px) {
-  .footer__devchallenge {
-    flex-basis: 100%;
-    padding-top: 113px;
-  }
-}
 @media (min-width: 1140px) {
   .footer {
     padding-top: 46px;
